@@ -1,7 +1,7 @@
 {
-  "name": "web-pair",
+  "name": "arslan-pairing-site",
   "version": "0.0.1",
-  "description": "A multi functional whatsapp bot Web paircode.",
+  "description": "A multi functional whatsapp bot Web paircode Created By ArslanMD Official.",
   "main": "arslan.js",
   "scripts": {
     "start": "pm2 start arslan.js --deep-monitoring --attach --name Arslan-MD",
