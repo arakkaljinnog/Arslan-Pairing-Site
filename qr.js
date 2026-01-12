@@ -95,7 +95,7 @@ ______________________________`;
 
 
 					await delay(100);
-					await Qr_Code_By_Adam_Tech.ws.close();
+					await Qr_Code_By_Arslan_MD__Tech.ws.close();
 					return await removeFile("temp/" + id);
 				} else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
 					await delay(10000);
@@ -112,6 +112,6 @@ ______________________________`;
 			await removeFile("temp/" + id);
 		}
 	}
-	return await Adam_yck_QR_CODE()
+	return await Arslan_MD__QR_CODE()
 });
 module.exports = router
